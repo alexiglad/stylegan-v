@@ -15,7 +15,7 @@ import numpy as np
 import scipy.linalg
 from . import metric_utils
 
-NUM_FRAMES_IN_BATCH = {128: 32, 256: 32, 512: 8, 1024: 2}
+NUM_FRAMES_IN_BATCH = {128: 32, 256: 32, 512: 8, 1024: 2, 224: 128}
 
 #----------------------------------------------------------------------------
 
